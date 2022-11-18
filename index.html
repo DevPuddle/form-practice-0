@@ -4,8 +4,21 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>form-practice-0</title>
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
         <h1>This is my form practice.</h1>
+        <p>Practice makes perfect and thats why we practice</p>
+        <form>
+            <label id="name-input">
+                Enter your name <input type="text" name="name-input" placeholder="your name" required value="Isaiah">
+            </label>
+            <label id="email-input">
+                Enter your email <input type="email" name="email-input" placeholder="your email" required value="Devpuddles@gmail.com">
+            </label>
+            <label id="number-input">
+                Choose a number <input type="number" name="number-input" placeholder="number" required value="5" min="2" max="8">
+            </label>
+        </form>
     </body>
 </html>
