@@ -1,24 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>form-practice-0</title>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        <h1>This is my form practice.</h1>
-        <p>Practice makes perfect and thats why we practice</p>
-        <form>
-            <label id="name-input">
-                Enter your name <input type="text" name="name-input" placeholder="your name" required value="Isaiah">
-            </label>
-            <label id="email-input">
-                Enter your email <input type="email" name="email-input" placeholder="your email" required value="Devpuddles@gmail.com">
-            </label>
-            <label id="number-input">
-                Choose a number <input type="number" name="number-input" placeholder="number" required value="5" min="2" max="8">
-            </label>
-        </form>
-    </body>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form-practice-0</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>This is my form practice.</h1>
+    <p>Practice makes perfect and thats why we practice</p>
+    <main id="form-container">
+    <form id="the-form">
+        <label id="name-input">
+            Enter your name <input type="text" name="name-input" placeholder="your name" required value="Isaiah">
+        </label>
+        <label id="email-input">
+            Enter your email <input type="email" name="email-input" placeholder="your email" required
+                value="Devpuddles@gmail.com">
+        </label>
+        <label id="number-input">
+            Choose a number <input type="number" name="number-input" placeholder="number" required value="5" min="2"
+                max="8">
+        </label>
+        <select id="dropdown">
+            <label>Which fruit is better?
+                <option>Which fruit:</option>
+                <option>apple</option>
+                <option>orange</option>
+                <option>peaches</option>
+
+        </select>
+        <label for="radio-choice">apple
+            <input id="radio-choice" name="better-choice" type="radio">
+        </label>
+        <label for="radio-choice">orange
+            <input id="radio-choice" name="better-choice" type="radio">
+        </label>
+        <label for="radio-choice">peaches
+            <input id="radio-choice" name="better-choice" type="radio">
+        </label>
+        <button id="submit">Submit</button>
+    </form>
+    </main>
+</body>
+
 </html>
