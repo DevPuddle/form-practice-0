@@ -1,3 +1,33 @@
 body {
     background-color: lightgrey;
 }
+
+.container {
+    width: 50%;
+    height: 75%;
+    margin: 20px auto;
+    border: 10px solid pink;
+    overflow: hidden;
+}  
+
+.one {
+    height: 100px;
+    width: 200px;
+    border: 10px solid red;
+    margin: 20px auto;
+
+}
+.two {
+    height: 100px;
+    width: 200px;
+    border: 10px solid white;
+    margin: 20px auto;
+
+}
+.three {
+    height: 100px;
+    width: 200px;
+    border: 10px solid blue;
+    margin: 10px auto;
+
+}
