@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    background: #dfe4ea;
 }
 
 header {
@@ -9,11 +10,13 @@ header {
     top: 0;
     justify-content: space-between;
     align-items: center;
+    background: #b5c0ce;
 }
 
 #logo {
-    width: max(100px, 18vw);
-    
+    width: max(100px, 1vw);
+    aspect-ratio: 15 /11;
+    padding: 0.4rem;
 }
 
 .quiz-title, img{
@@ -32,4 +35,32 @@ h1 {
     color: #4c5b9d;
     font-size: min(5vw, 1.2em);
     text-align: center;
+  }
+
+  nav {
+    width: 50%;
+    max-width: 300px;
+  }
+
+  ul li {
+    font-size: 16px;
+  }
+
+  li a {
+    text-decoration: none;
+    
+  }
+
+  li {
+    list-style-type: none;
+  }
+
+  nav > ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    padding-inline-start: 0;
+    margin-block: 0;
+    height: 100%;
   }
