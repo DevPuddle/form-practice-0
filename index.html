@@ -1,22 +1,86 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Form practice">
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        <header>
-            <img id="logo" src="img/default.png">
-            <h1 class="quiz-title">HTML/CSS Quiz</h1>
-            <nav>
-                <ul>
-                    <li><a href="#">Info</a></li>
-                    <li><a href="#">Html</a></li>
-                    <li><a href="#">Css</a></li>
-                </ul>
-            </nav>
-        </header>
-    </body>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Form practice">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <img id="logo" src="img/default.png">
+        <h1 class="quiz-title">HTML/CSS Quiz</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Info</a></li>
+                <li><a href="#">Html</a></li>
+                <li><a href="#">Css</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form method="post" action="https://www.google.com">
+            <section class="1">
+                <h2>Student Info</h2>
+                <div class="info">
+                    <label for="text">
+                        Name:
+                    </label>
+                    <input name="text" type="text" id="text" placeholder="example: Isaiah Henson">
+                </div>
+                <div class="info">
+                    <label for="email">
+                        Email:
+                    </label>
+                    <input name="email" type="email" id="email" placeholder="example: Devpuddles@gmail.com">
+                </div>
+                <div class="info">
+                    <label for="date">
+                        Date:
+                    </label>
+                    <input name="date" type="date" id="date" value="date">
+                </div>
+            </section>
+            <section class="2">
+                <h2>HTML</h2>
+                <div>
+                    <fieldset>
+                        <legend>
+                            Choose Wisly: The Answer Is Right In Front Of You!
+
+                        </legend>
+                        <label for="1">
+                            True:
+                            <input id="1" type="radio" name="choice">
+                            
+                        </lebel>
+                        <label for="1a">
+                            False:
+                            <input id="1a" type="radio" name="choice">
+
+                        </lebel>
+                    </fieldset>
+                    <fieldset>
+                        <legend>
+                            Choose Wisly: The Answer Is Right In Front Of You!
+
+                        </legend>
+                        <label for="2">
+                            True:
+                            <input type="radio" name="choice2">
+                            False:
+                            <input type="radio" name="choice2">
+                        </lebel>
+                    </fieldset>
+                </div>
+                <div></div>
+                <div></div>
+            </section>
+            <button type="submit">send</button>
+        </form>
+    </main>
+</body>
+
 </html>

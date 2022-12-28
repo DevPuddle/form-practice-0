@@ -11,6 +11,7 @@ header {
     justify-content: space-between;
     align-items: center;
     background: #b5c0ce;
+    position: fixed;
 }
 
 #logo {
@@ -40,6 +41,7 @@ h1 {
   nav {
     width: 50%;
     max-width: 300px;
+    height: 50px
   }
 
   ul li {
@@ -63,4 +65,85 @@ h1 {
     padding-inline-start: 0;
     margin-block: 0;
     height: 100%;
+  }
+
+  h2 {
+    border-bottom: 4px solid #5f646a;
+  }
+
+  form {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  label + input {
+    margin: 10px;
+  }
+
+  /* .info {
+    padding: 10px 0 0 5px;
+  }
+
+  .info label, .info input {
+    display: inline-block;
+  }
+
+  .info input {
+    width: 50%;
+    text-align: left;
+  }
+
+  .info label {
+    width: 10%;
+    min-width: 55px;
+    text-align: right;
+  } */
+
+  .info label, .info input {
+    display: inline-block;
+  }
+
+  .info {
+    padding: 10px 0 0 10px;
+  }
+
+  .info input {
+    width: 50%;
+    text-align: left;
+  }
+
+  .info label {
+    width: 10%;
+    min-width: 55px;
+    text-align: right;
+  }
+
+  section {
+    width: 80%;
+    margin: 0 auto 10px auto;
+    max-width: 600px;
+  }
+
+  main {
+    padding-top: 50px;
+  }
+
+  fieldset {
+    border: none;
+  }
+
+  fieldset > legend {
+    font-weight: bold;
+    padding: 10px 0 10px 0;
+  }
+
+  form > button {
+    padding: 10px 15px 10px 15px;
+    margin: auto;
+    width: 50%;
+    display: block;
+    background-color: purple;
+    color: wheat;
+    box-shadow: 3px 3px 5px 5px black;
+    border-radius: 2px;
   }
